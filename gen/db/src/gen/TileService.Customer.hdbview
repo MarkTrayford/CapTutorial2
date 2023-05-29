@@ -1,0 +1,4 @@
+VIEW TileService_Customer AS SELECT
+  Customers_0.customerID,
+  Customers_0.description
+FROM sap_ui_riskmanagement_Customers AS Customers_0

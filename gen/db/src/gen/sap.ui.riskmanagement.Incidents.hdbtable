@@ -1,0 +1,8 @@
+COLUMN TABLE sap_ui_riskmanagement_Incidents (
+  ID NVARCHAR(5000) NOT NULL,
+  customer NVARCHAR(5000),
+  description NVARCHAR(5000),
+  status NVARCHAR(5000),
+  assignedTo NVARCHAR(5000),
+  PRIMARY KEY(ID)
+)

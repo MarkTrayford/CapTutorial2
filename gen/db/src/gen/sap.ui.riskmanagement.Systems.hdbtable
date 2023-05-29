@@ -1,0 +1,9 @@
+COLUMN TABLE sap_ui_riskmanagement_Systems (
+  customer NVARCHAR(5000) NOT NULL,
+  landscape NVARCHAR(5000) NOT NULL,
+  sysid NVARCHAR(5000) NOT NULL,
+  client NVARCHAR(5000) NOT NULL,
+  userId NVARCHAR(5000),
+  password NVARCHAR(5000),
+  PRIMARY KEY(customer, landscape, sysid, client)
+)

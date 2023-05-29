@@ -1,0 +1,7 @@
+COLUMN TABLE sap_ui_riskmanagement_Members (
+  ID NVARCHAR(5000) NOT NULL,
+  firstname NVARCHAR(5000),
+  surname NVARCHAR(5000),
+  role NVARCHAR(5000),
+  PRIMARY KEY(ID)
+)

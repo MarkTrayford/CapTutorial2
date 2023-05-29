@@ -1,0 +1,5 @@
+COLUMN TABLE sap_ui_riskmanagement_Customers (
+  customerID NVARCHAR(5000) NOT NULL,
+  description NVARCHAR(5000),
+  PRIMARY KEY(customerID)
+)

@@ -1,0 +1,6 @@
+VIEW TileService_TeamMembers AS SELECT
+  Members_0.ID,
+  Members_0.firstname,
+  Members_0.surname,
+  Members_0.role
+FROM sap_ui_riskmanagement_Members AS Members_0

@@ -1,0 +1,8 @@
+VIEW TileService_Systems AS SELECT
+  Systems_0.customer,
+  Systems_0.landscape,
+  Systems_0.sysid,
+  Systems_0.client,
+  Systems_0.userId,
+  Systems_0.password
+FROM sap_ui_riskmanagement_Systems AS Systems_0
